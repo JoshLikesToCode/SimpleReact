@@ -62,7 +62,7 @@ const SearchParams = () => {
           Breed
           <select
             id="breed"
-            disabled={breeds.Length === 0}
+            disabled={breeds.length === 0}
             value={breed}
             onChange={(e) => {
               setBreed(e.target.value);
